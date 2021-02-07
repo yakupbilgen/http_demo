@@ -1,0 +1,272 @@
+{
+  "products":[
+      {
+          "id":1,
+          "categoryId":1,
+          "productName": "product name 1",
+          "qantityPerUnit":"11",
+          "unitPrice":11,
+          "unitsInStock":1
+        },
+        {
+          "id":1,
+          "categoryId":2,
+          "productName": "product name",
+          "qantityPerUnit":"22",
+          "unitPrice":22,
+          "unitsInStock":22
+        }, 
+        {
+          "id":1,
+          "categoryId":3,
+          "productName": "product name",
+          "qantityPerUnit":"33",
+          "unitPrice":33,
+          "unitsInStock":33
+        }, 
+        {
+          "id":1,
+          "categoryId":4,
+          "productName": "product name",
+          "qantityPerUnit":"44",
+          "unitPrice":44,
+          "unitsInStock":44
+        }, 
+        {
+          "id":1,
+          "categoryId":5,
+          "productName": "product name",
+          "qantityPerUnit":"55",
+          "unitPrice":55,
+          "unitsInStock":55
+        }, 
+        {
+          "id":1,
+          "categoryId":6,
+          "productName": "product name",
+          "qantityPerUnit":"66",
+          "unitPrice":66,
+          "unitsInStock":66
+        }, 
+        {
+          "id":1,
+          "categoryId":7,
+          "productName": "product name",
+          "qantityPerUnit":"77",
+          "unitPrice":77,
+          "unitsInStock":77
+        }, 
+        {
+          "id":1,
+          "categoryId":8,
+          "productName": "product name",
+          "qantityPerUnit":"88",
+          "unitPrice":88,
+          "unitsInStock":88
+        }, 
+        {
+          "id":1,
+          "categoryId":9,
+          "productName": "product name",
+          "qantityPerUnit":"99",
+          "unitPrice":99,
+          "unitsInStock":99
+        },
+        {
+          "id":2,
+          "categoryId":1,
+          "productName": "product name 1",
+          "qantityPerUnit":"11",
+          "unitPrice":11,
+          "unitsInStock":1
+        },
+        {
+          "id":2,
+          "categoryId":2,
+          "productName": "product name",
+          "qantityPerUnit":"22",
+          "unitPrice":22,
+          "unitsInStock":22
+        }, 
+        {
+          "id":2,
+          "categoryId":3,
+          "productName": "product name",
+          "qantityPerUnit":"33",
+          "unitPrice":33,
+          "unitsInStock":33
+        }, 
+        {
+          "id":2,
+          "categoryId":4,
+          "productName": "product name",
+          "qantityPerUnit":"44",
+          "unitPrice":44,
+          "unitsInStock":44
+        }, 
+        {
+          "id":2,
+          "categoryId":5,
+          "productName": "product name",
+          "qantityPerUnit":"55",
+          "unitPrice":55,
+          "unitsInStock":55
+        }, 
+        {
+          "id":2,
+          "categoryId":6,
+          "productName": "product name",
+          "qantityPerUnit":"66",
+          "unitPrice":66,
+          "unitsInStock":66
+        }, 
+        {
+          "id":2,
+          "categoryId":7,
+          "productName": "product name",
+          "qantityPerUnit":"77",
+          "unitPrice":77,
+          "unitsInStock":77
+        }, 
+        {
+          "id":2,
+          "categoryId":8,
+          "productName": "product name",
+          "qantityPerUnit":"88",
+          "unitPrice":88,
+          "unitsInStock":88
+        }, 
+        {
+          "id":2,
+          "categoryId":9,
+          "productName": "product name",
+          "qantityPerUnit":"99",
+          "unitPrice":99,
+          "unitsInStock":99
+        },
+        {
+          "id":3,
+          "categoryId":1,
+          "productName": "product name 1",
+          "qantityPerUnit":"11",
+          "unitPrice":11,
+          "unitsInStock":1
+        },
+        {
+          "id":3,
+          "categoryId":2,
+          "productName": "product name",
+          "qantityPerUnit":"22",
+          "unitPrice":22,
+          "unitsInStock":22
+        }, 
+        {
+          "id":3,
+          "categoryId":3,
+          "productName": "product name",
+          "qantityPerUnit":"33",
+          "unitPrice":33,
+          "unitsInStock":33
+        }, 
+        {
+          "id":3,
+          "categoryId":4,
+          "productName": "product name",
+          "qantityPerUnit":"44",
+          "unitPrice":44,
+          "unitsInStock":44
+        }, 
+        {
+          "id":3,
+          "categoryId":5,
+          "productName": "product name",
+          "qantityPerUnit":"55",
+          "unitPrice":55,
+          "unitsInStock":55
+        }, 
+        {
+          "id":3,
+          "categoryId":6,
+          "productName": "product name",
+          "qantityPerUnit":"66",
+          "unitPrice":66,
+          "unitsInStock":66
+        }, 
+        {
+          "id":3,
+          "categoryId":7,
+          "productName": "product name",
+          "qantityPerUnit":"77",
+          "unitPrice":77,
+          "unitsInStock":77
+        }, 
+        {
+          "id":3,
+          "categoryId":8,
+          "productName": "product name",
+          "qantityPerUnit":"88",
+          "unitPrice":88,
+          "unitsInStock":88
+        }, 
+        {
+          "id":3,
+          "categoryId":9,
+          "productName": "product name",
+          "qantityPerUnit":"99",
+          "unitPrice":99,
+          "unitsInStock":99
+        }
+    ],
+  "categories":[
+      {
+          "id":1,
+          "categoryName":"category name 1",
+          "seoUrl":"seo url 1"
+      },
+      {
+          "id":2,
+          "categoryName":"category name 2",
+          "seoUrl":"seo url 2"
+      },
+      {
+          "id":3,
+          "categoryName":"category name 3",
+          "seoUrl":"seo url 3"
+      },
+      {
+          "id":3,
+          "categoryName":"category name 3",
+          "seoUrl":"seo url 3"
+      },
+      {
+          "id":4,
+          "categoryName":"category name 4",
+          "seoUrl":"seo url 4"
+      },
+      {
+          "id":5,
+          "categoryName":"category name 5",
+          "seoUrl":"seo url 5"
+      },
+      {
+          "id":6,
+          "categoryName":"category name 6",
+          "seoUrl":"seo url 6"
+      },
+      {
+          "id":7,
+          "categoryName":"category name 7",
+          "seoUrl":"seo url 7"
+      },
+      {
+          "id":8,
+          "categoryName":"category name 8",
+          "seoUrl":"seo url 8"
+      },
+      {
+          "id":9,
+          "categoryName":"category name 9",
+          "seoUrl":"seo url 9"
+      }
+  ]
+}

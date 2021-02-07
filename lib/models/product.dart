@@ -17,6 +17,7 @@ class Product {
     unitPrice = double.tryParse(json["unitPrice"].toString());
     unitsInStock = json["unitsInStock"];
 
+    // ignore: unused_element
     Map toJson() {
       return {
         "id": id,

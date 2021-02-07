@@ -14,12 +14,16 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
+  // ignore: deprecated_member_use
   List<Category> categories = List<Category>();
+  // ignore: deprecated_member_use
   List<Widget> categoryWidgets = List<Widget>();
+  // ignore: deprecated_member_use
   List<Product> products = List<Product>();
 
   void initState() {
     getCategoriesFromApi();
+    getProducts();
     super.initState();
   }
 
@@ -71,8 +75,9 @@ class _MainScreenState extends State<MainScreen> {
   }
 
   Widget getCategoryWidgets(Category category) {
+    // ignore: deprecated_member_use
     return FlatButton(
-      onPressed: getProductByCategoryId(category),
+      onPressed: null, //getProductByCategoryId(category),
       child: Text(
         category.categoryName,
         style: TextStyle(color: Colors.blueGrey),
@@ -83,8 +88,8 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 
-  getProductByCategoryId(Category category) {
-    ProductApi.getProductsByCategoryId(category.id).then((response) {
+  void getProducts() {
+    ProductApi.getProducts().then((response) {
       setState(() {
         Iterable list = json.decode(response.body);
         this.products =
